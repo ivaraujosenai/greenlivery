@@ -11,6 +11,9 @@ Este é um projeto dídatico para disciplina de IHC no curso de Desenvolvimento 
 
 # Cores escolhidas:
 
-- Primária:
-- Secundária:
-- Terciária:
+- Primária: #3CA542
+- Secundária: #FFF7E8
+- Terciária: #623804
+
+# Sites de referência:
+- Livup: https://www.livup.com.br/
