@@ -1,16 +1,16 @@
-# greenlivery
+# GreenLivery
 
-Sobre:
+# Sobre:
 Este é um projeto dídatico para disciplina de IHC no curso de Desenvolvimento de Sistemas do SENAI - Alagoinhas.
 
-Fontes escolhidas:
+# Fontes escolhidas:
 
-# Logo: Pacifico
-# Titulos: Righteous
-# Paragráfos: Open Sans
+- Logo: Pacifico
+- Titulos: Righteous
+- Paragráfos: Open Sans
 
-Cores escolhidas:
+# Cores escolhidas:
 
-# Primária:
-# Secundária:
-# Terciária:
+- Primária:
+- Secundária:
+- Terciária:
