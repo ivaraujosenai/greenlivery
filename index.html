@@ -7,20 +7,82 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header id="topo">
         <div class="container_carrossel"></div>
-        <div class="container_menu">
+        <div class="container_menu fundo-verde">
             <form action="" method="get">
-                <input type="search" name="busca" id="busca">
-                <input type="submit" value="Buscar">
+                <input type="search" name="busca" id="busca" class="caixa_busca" placeholder="Buscar...">
+                <button><img src="src/icons/search-outline.svg" alt=""></button>
             </form>
-            <a href=""><img src="src/icons/user-interface.png" alt="login_icone"></a>
-            <a href=""><img src="src/icons/shopping-cart.png" alt="carrinho_icone"></a>
+            <a href=""><img src="src/icons/person-circle-outline.svg" alt="login_icone"></a>
+            <a href=""><img src="src/icons/cart-outline.svg" alt="carrinho_icone"></a>
         </div>
     </header>
     <main>
-        <h1>Teste</h1>
+        <section id="categorias" class="fundo-creme">
+            <div class="container_categorias">
+                <a href=""><p>Doces</p></a>
+                <a href=""><p>Salgados</p></a>
+                <a href=""><p>Massas</p></a>
+                <a href=""><p>Saladas</p></a>
+                <a href=""><p>Kits</p></a>
+                <a href=""><p>Sobremesas</p></a>
+            </div>
+            <div class="container_produtos">
+                <article class="borda-baixo">
+                    <div class="produtos">
+                        <div class="produto">
+                            <img src="" alt="">
+                            <h2>Produto 01</h2>
+                            <p>R$ 15,00</p>
+                        </div>
+                        <button class="btn-produto">Comprar</button>
+                    </div>
+                    <div class="produtos borda-esquerda">
+                        <div class="produto">
+                            <img src="" alt="">
+                            <h2>Produto 02</h2>
+                            <p>R$ 05,00</p>
+                        </div>
+                        <button class="btn-produto">Comprar</button>
+                    </div>
+                </article>
+                <article>
+                    <div class="produtos">
+                        <div class="produto">
+                            <img src="" alt="">
+                            <h2>Produto 03</h2>
+                            <p>R$ 19,00</p>
+                        </div>
+                        <button class="btn-produto">Comprar</button>
+                    </div>
+                    <div class="produtos borda-esquerda">
+                        <div class="produto">
+                            <img src="" alt="">
+                            <h2>Produto 04</h2>
+                            <p>R$ 38,00</p>
+                        </div>
+                        <button class="btn-produto">Comprar</button>
+                    </div>
+                </article> 
+            </div>
+        </section>
+        <section id="promocoes" class="container_banner fundo-verde">
+            <div class="banner"></div>
+            <div class="banner"></div>
+            <div class="banner"></div>
+        </section>
+        <section id="contato" class="container_contato fundo-creme">
+            <div class="redes"></div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.61690584507!2d-38.43114082415091!3d-12.138343243614251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716bc4eb8176ec5%3A0x602e8a7cb12b436f!2sSENAI%20Alagoinhas!5e0!3m2!1spt-BR!2sbr!4v1756151034008!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="fundo-verde">        
+        <div>
+            <p>© GreenLivery - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
