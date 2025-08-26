@@ -17,3 +17,18 @@ Este é um projeto dídatico para disciplina de IHC no curso de Desenvolvimento 
 
 # Sites de referência:
 - Livup: https://www.livup.com.br/
+
+# Estrutura de pastas:
+/
+├── src/
+│   ├── icons
+│   |    └── cart.svg
+│   ├── img
+│   |    └── imagem01.png
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+│   
+├── index.html
+└── README.md
