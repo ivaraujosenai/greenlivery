@@ -24,8 +24,8 @@ Este é um projeto dídatico para disciplina de IHC no curso de Desenvolvimento 
 ├── src/
 │   ├── icons
 │   |    └── cart.svg
-│   ├── img
-│   |    └── imagem01.png
+│   └── img
+│        └── imagem01.png
 ├── css/
 │   └── styles.css
 ├── js/
