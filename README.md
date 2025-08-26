@@ -19,6 +19,7 @@ Este é um projeto dídatico para disciplina de IHC no curso de Desenvolvimento 
 - Livup: https://www.livup.com.br/
 
 # Estrutura de pastas:
+```
 /
 ├── src/
 │   ├── icons
@@ -32,3 +33,4 @@ Este é um projeto dídatico para disciplina de IHC no curso de Desenvolvimento 
 │   
 ├── index.html
 └── README.md
+```
