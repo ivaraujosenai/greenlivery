@@ -81,7 +81,7 @@ footer{
 
 .largura-container{
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* CONFIG HEADER */
@@ -170,7 +170,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 10px;
+    padding: 20px 0px 20px 0px;
 }
 
 .container_categorias p{    
@@ -181,6 +181,7 @@ footer{
     border-radius: 20px;
     width:90px;
     text-align: center;
+    padding: 10px;
 }
 
 .container_categorias p:hover{
@@ -196,32 +197,42 @@ footer{
 .container_produtos{
     display: flex;
     flex-direction: column;
-    width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    width: 100%;
+    max-height: 900px;
+    gap: 10px;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 20px;
 }
 
 .container_produtos article{
     display: flex;
     flex-direction: row;    
     align-items: center;
-    justify-content: center;
-    gap: 10px;    
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;   
+    height: auto;
+    gap: 10px;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 10px 0px 10px;
 }
 
 .borda-esquerda{
     border-left: 2px solid var(--marron);
+    padding: 20px;
 }
 
 .borda-baixo{
     border-bottom: 2px solid var(--marron);
+
 }
 
-.container_produtos article div{
-    display: flex;    
+.container_produtos article div{  
+    display: flex;  
+    flex: 1;  
     width: 100%;
-    max-width: 350px;
     height: auto;
 }
 
@@ -306,7 +317,9 @@ footer{
     min-height: 450px;
 }
 
-.redes h3{}
+.redes h3{
+    font-size: 24px;
+}
 
 .redes a{
     text-decoration: none;
@@ -341,6 +354,5 @@ footer{
 
 footer p{
     padding: 10px;
-    color: white;
-}   
-
+    color: var(--creme);
+}
