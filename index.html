@@ -8,18 +8,25 @@
 </head>
 <body>
     <header id="topo">
-        <div class="container_carrossel"></div>
+        <div class="container_carrossel">
+            <a href=""><div class="btn_carrossel"></div></a>
+            <a href=""><div class="btn_carrossel"></div></a>
+            <a href=""><div class="btn_carrossel"></div></a>
+        </div>
+
         <div class="container_menu fundo-verde">
-            <form action="" method="get">
+            <div class="menu">
+                <form action="" method="get">
                 <input type="search" name="busca" id="busca" class="caixa_busca" placeholder="Buscar...">
                 <button><img src="src/icons/search-outline.svg" alt=""></button>
-            </form>
-            <a href=""><img src="src/icons/person-circle-outline.svg" alt="login_icone"></a>
-            <a href=""><img src="src/icons/cart-outline.svg" alt="carrinho_icone"></a>
+                </form>
+                <a href=""><img src="src/icons/person-circle-outline.svg" alt="login_icone"></a>
+                <a href=""><img src="src/icons/cart-outline.svg" alt="carrinho_icone"></a>
+            </div>
         </div>
     </header>
     <main>
-        <section id="categorias" class="fundo-creme">
+        <section id="categorias" class="secao_produtos fundo-creme">
             <div class="container_categorias">
                 <a href=""><p>Doces</p></a>
                 <a href=""><p>Salgados</p></a>
@@ -32,17 +39,17 @@
                 <article class="borda-baixo">
                     <div class="produtos">
                         <div class="produto">
-                            <img src="" alt="">
-                            <h2>Produto 01</h2>
+                            <img src="src/img/frango-desfiado-cremoso.png" alt="frango-desfiado-cremoso">
+                            <h2>Frango desfiado cremoso</h2>
                             <p>R$ 15,00</p>
                         </div>
                         <button class="btn-produto">Comprar</button>
                     </div>
                     <div class="produtos borda-esquerda">
                         <div class="produto">
-                            <img src="" alt="">
-                            <h2>Produto 02</h2>
-                            <p>R$ 05,00</p>
+                            <img src="src/img/almondega-de-carne.png" alt="almondega-de-carne">
+                            <h2>Almondega de carne</h2>
+                            <p>R$ 15,00</p>
                         </div>
                         <button class="btn-produto">Comprar</button>
                     </div>
@@ -50,17 +57,17 @@
                 <article>
                     <div class="produtos">
                         <div class="produto">
-                            <img src="" alt="">
-                            <h2>Produto 03</h2>
+                            <img src="src/img/hamburguer-de-fraldinha.png" alt="hamburguer-de-fraldinha">
+                            <h2>Hamburguer de fraldinha</h2>
                             <p>R$ 19,00</p>
                         </div>
                         <button class="btn-produto">Comprar</button>
                     </div>
                     <div class="produtos borda-esquerda">
                         <div class="produto">
-                            <img src="" alt="">
-                            <h2>Produto 04</h2>
-                            <p>R$ 38,00</p>
+                            <img src="src/img/torta-de-frango.png" alt="torta-de-frango">
+                            <h2>Torta de frango</h2>
+                            <p>R$ 12,00</p>
                         </div>
                         <button class="btn-produto">Comprar</button>
                     </div>
@@ -68,14 +75,20 @@
             </div>
         </section>
         <section id="promocoes" class="container_banner fundo-verde">
-            <div class="banner"></div>
-            <div class="banner"></div>
-            <div class="banner"></div>
+            <div class="banner"><img src="src/img/5-percent-removebg-preview.png" alt=""></div>
+            <div class="banner"><img src="src/img/15-percent-removebg-preview.png" alt=""></div>
+            <div class="banner"><img src="src/img/20-percent-removebg-preview.png" alt=""></div>
+            <div class="banner"><img src="src/img/5-percent-removebg-preview.png" alt=""></div>
         </section>
         <section id="contato" class="container_contato fundo-creme">
-            <div class="redes"></div>
+            <div class="redes">
+                <h3>Redes sociais</h3>
+                <a href=""><p><img src="src/icons/logo-instagram.svg" alt="logo_instagram"> @GreenLivery</p></a>
+                <a href=""><p><img src="src/icons/logo-facebook.svg" alt="logo_instagram"> @GreenLivery</p></a>
+                <a href=""><p><img src="src/icons/logo-tiktok.svg" alt="logo_instagram"> @GreenLivery</p></a>
+            </div>
             <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.61690584507!2d-38.43114082415091!3d-12.138343243614251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716bc4eb8176ec5%3A0x602e8a7cb12b436f!2sSENAI%20Alagoinhas!5e0!3m2!1spt-BR!2sbr!4v1756151034008!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.61690584507!2d-38.43114082415091!3d-12.138343243614251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716bc4eb8176ec5%3A0x602e8a7cb12b436f!2sSENAI%20Alagoinhas!5e0!3m2!1spt-BR!2sbr!4v1756151034008!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
